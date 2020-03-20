@@ -4,8 +4,8 @@ const Schema = mongoose.Schema;
 const mySchema = new Schema({
     document: String,
     fullName: String,
-    initialDate: String,
-    endDate: String,
+    initialDate: Date,
+    endDate: Date,
     startTime: String,
     endTime: String,
     startTimeExtra: String,
